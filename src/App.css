@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://previews.123rf.com/images/serezniy/serezniy1812/serezniy181214153/113135471-empty-to-do-list-and-computer-keyboard-on-grey-background.jpg');
+
+}
+.wrapper{
+  width: 300px;
+  padding: 30px 30px 30px 150px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  
+}
+.wrapper .input-data{
+  display: flex;
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.wrapper .input-data input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid silver;
+}
+
+
+.add-btn {
+    display:inline-block;
+    width: auto;
+    height: 100%;
+    padding:0.7em 1.7em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.5rem;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-size: 1rem;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 1em -0.35em rgba(0,0,0,0.17),inset 0 0.6em 2em -0.3em rgba(255,255,255,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+}
+.add-btn:active {
+  box-shadow:inset 0 0.6em 2em -0.3em rgba(0,0,0,0.15),inset 0 0 0em 0.05em rgba(255,255,255,0.12);
+
+}
+.todolist {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.todolist li {
+  font-size: 25px;
+  border: #3369ff 2px dashed;  
+  border-radius: 5px;
+  margin: 0 15px 10px 0;
+}
+.card {
+  list-style: none;
+  display: flex;
+  padding: 10px 30px 0px 120px;
+}
+.card .btns {
+  padding-top: 8px;
+  margin-left: 5px;
+}
+.card textarea {
+  font-family: 'Rampart One', cursive;
+  font-weight: bold;
+  color: #3369ff;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons .filterbutton{
+  font-size: larger;
+  font-family: 'Rampart One', cursive;
+}
+
+.completed {
+  color: rgba(165, 19, 63, 0.808);
+  padding-top: 8px;
+  margin-left: 8px;
+  font-weight: bolder;
+}
+
+.title {
+  color: rgb(68, 68, 68);
+  font-family: 'Rampart One', cursive;
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.title h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  line-height: .75;
+  
+}
+
