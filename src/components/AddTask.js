@@ -15,7 +15,7 @@ const mapDispatchToProps = (dispatch) => {
   };
 };  
 
-const ListTask = (props) => {
+const AddTask = (props) => {
   const [todo, setTodo] = useState("");
 
   const add = () => {
@@ -52,6 +52,6 @@ const ListTask = (props) => {
     </div>
   );
 };
-export default connect (mapStateToProps, mapDispatchToProps)(ListTask);
+export default connect (mapStateToProps, mapDispatchToProps)(AddTask);
 
 
